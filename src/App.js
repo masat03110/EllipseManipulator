@@ -7,6 +7,7 @@ function App() {
     { x: 0, y: 0, rx: 100, ry: 50, rotation: 0, fill: false, name: 'Ellipse 1' }
   ]);
   const [selectedEllipseIndex, setSelectedEllipseIndex] = useState(0);
+  const [select_change, setSelect_change] = useState(0);
   const [showNames, setShowNames] = useState(true);
 
   const isPositionOccupied = (x, y, threshold = 150) => {
@@ -89,6 +90,7 @@ function App() {
     });
     setEllipses(newEllipses);
     setSelectedEllipseIndex(newEllipses.length > 0 ? 0 : -1);
+    setSelect_change((select_change + 1)&1);
   };
 
   return (
@@ -108,21 +110,6 @@ function App() {
             onChange={(e) => setShowNames(e.target.checked)}
           />
         </label>
-        {/* <label>
-          全ての楕円を黒く塗りつぶす:
-          <input
-            type="checkbox"
-            onChange={(e) => {
-              if (e.target.checked){
-                ellipses.map(ellipse => {
-                  ellipse.fill = true;
-                  return ellipse;
-                })
-                setEllipses([...ellipses]);
-              };
-            }}
-          />
-        </label> */}
         {ellipses.length > 0 && (
           <>
             <label>
@@ -139,7 +126,7 @@ function App() {
               </select>
               <p class="small-text">(青い名前部分をクリックしても選べます)</p>
             </label>
-            <div key={selectedEllipseIndex}>
+            <div key={`${selectedEllipseIndex}_${select_change}`}>
               <h2>{`Ellipse ${selectedEllipseIndex + 1}`}</h2>
               <label>
                 X (横方向の位置):
