@@ -98,12 +98,12 @@ const Ellipse = ({ ellipses, showNames, onSelectEllipse }) => {
       ctx.rotate(-rotation * Math.PI / 180);
       ctx.beginPath();
       ctx.ellipse(0, 0, rx, ry, 0, 0, 2 * Math.PI);
-      ctx.lineWidth = 2; // Line width
-      ctx.strokeStyle = 'black'; // Line color
       if (fill) {
         ctx.fillStyle = 'black';
         ctx.fill();
       } else {
+        ctx.lineWidth = 2; // Line width
+        ctx.strokeStyle = 'black'; // Line color
         ctx.stroke();
       }
       ctx.restore();
