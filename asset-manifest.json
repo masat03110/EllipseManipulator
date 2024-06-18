@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/masat03110.github.io/EllipseManipulator/static/css/main.c941695e.css",
+    "main.js": "/masat03110.github.io/EllipseManipulator/static/js/main.a96671df.js",
+    "static/js/453.3d846910.chunk.js": "/masat03110.github.io/EllipseManipulator/static/js/453.3d846910.chunk.js",
+    "index.html": "/masat03110.github.io/EllipseManipulator/index.html",
+    "main.c941695e.css.map": "/masat03110.github.io/EllipseManipulator/static/css/main.c941695e.css.map",
+    "main.a96671df.js.map": "/masat03110.github.io/EllipseManipulator/static/js/main.a96671df.js.map",
+    "453.3d846910.chunk.js.map": "/masat03110.github.io/EllipseManipulator/static/js/453.3d846910.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c941695e.css",
+    "static/js/main.a96671df.js"
+  ]
+}
