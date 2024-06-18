@@ -36,7 +36,7 @@ const Ellipse = ({ ellipses, showNames, onSelectEllipse }) => {
     }
 
     // Draw X and Y axes
-    // ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'rgba(0, 0, 0, 0.1)';
     ctx.lineWidth = 1.5;
 
     // X-axis
@@ -103,7 +103,7 @@ const Ellipse = ({ ellipses, showNames, onSelectEllipse }) => {
         ctx.fill();
       } else {
         ctx.lineWidth = 2; // Line width
-        ctx.strokeStyle = 'black'; // Line color
+        ctx.strokeStyle = 'rgba(0, 0, 0, 0.9)'; // Line color
         ctx.stroke();
       }
       ctx.restore();
