@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/EllipseManipulator/static/css/main.c941695e.css",
-    "main.js": "/EllipseManipulator/static/js/main.5863617f.js",
+    "main.js": "/EllipseManipulator/static/js/main.bcd2fa93.js",
     "static/js/453.3d846910.chunk.js": "/EllipseManipulator/static/js/453.3d846910.chunk.js",
     "index.html": "/EllipseManipulator/index.html",
     "main.c941695e.css.map": "/EllipseManipulator/static/css/main.c941695e.css.map",
-    "main.5863617f.js.map": "/EllipseManipulator/static/js/main.5863617f.js.map",
+    "main.bcd2fa93.js.map": "/EllipseManipulator/static/js/main.bcd2fa93.js.map",
     "453.3d846910.chunk.js.map": "/EllipseManipulator/static/js/453.3d846910.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c941695e.css",
-    "static/js/main.5863617f.js"
+    "static/js/main.bcd2fa93.js"
   ]
 }
