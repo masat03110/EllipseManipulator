@@ -1,3 +1,15 @@
+# EllipseManipulator
+
+## how to use
+you can use this app by clicking on the link below
+[EllipseManipulator](https://masat03110.github.io/EllipseManipulator/)
+
+or you can clone this repository and run the following command
+```bash
+npm i react-scripts
+npm start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
